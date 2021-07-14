@@ -38,7 +38,6 @@ class LocationController extends Controller
         } else {
             $locat = new Location();
             $locat->fill($request->only($locat->getFillable()));
-            $locat->user_id = $id;
             $locat->save();
             $locat->craftsmen()->attach($user);
             return redirect('current-locations/' . $id)->with('success', 'تم اضافة العنوان بنجاح');
@@ -85,14 +84,11 @@ class LocationController extends Controller
     }
 
 
-    public
-    function loc()
+    public function loc()
     {
         $user = Craftsman::find(1)->locations()->orderBy('id')->get();
-//       foreach ($user->locations as $loc){
+
         return $user;
     }
 
-
-//    }
 }
