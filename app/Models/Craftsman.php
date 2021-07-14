@@ -79,10 +79,11 @@ class Craftsman extends Authenticatable
     }
     
     public function getProfileImage(){
-        if (!$this->profile()){
+        if (!$this->profile){
             return 'images/user.jpg';
         } else {
-            $profile_id = $this->profile()->id;
+            $profile_i = $this->profile;
+            $profile_id = $profile_i->id;
             $profile = Profile::findOrFail($profile_id);
             return $profile->image_path;
         }

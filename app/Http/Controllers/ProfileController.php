@@ -28,7 +28,7 @@ class ProfileController extends Controller
      */
     public function create()
     {
-
+        //
     }
 
     /**
@@ -39,18 +39,7 @@ class ProfileController extends Controller
      */
     public function store(ProfileRequest $request)
     {
-        $image = $request->file('image_path')->store('/public/images');
-        $profile = new Profile();
-        $profile->craftsman_id = $request->craftsman_id;
-        $profile->first_name = $request->first_name;
-        $profile->last_name = $request->last_name;
-        $profile->martial_status = $request->martial_status;
-        $profile->image_path = $request->file('image_path');
-        $profile->description = $request->description;
-        $profile->phone = $request->phone;
-        $profile->contact = $request->contact;
-        $profile->save();
-        return back()->with('success', 'تم انشاء الملف الشخصي بنجاح');
+        //
     }
 
     /**
@@ -74,7 +63,6 @@ class ProfileController extends Controller
     public function edit($id)
     {
         $profile = Profile::where('craftsman_id',$id)->first();
-        // dd($profile);
         return view('craftsman.edit-profile')->with('profile', $profile);
     }
 
