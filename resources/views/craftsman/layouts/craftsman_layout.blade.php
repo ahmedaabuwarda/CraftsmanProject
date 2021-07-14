@@ -160,6 +160,8 @@
                                         <a href="{{ route('profile.show' , $id) }}" class="kt-widget__item kt-widget__item--active">الملف الشخصي</a>
                                         <a href="/current-locations/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">اماكن العمل الحالية</a>
                                         <a href="/location/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">اضافة مكان عمل</a>
+                                        <a href="/current-crafts/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">الحرف الحالية</a>
+                                        <a href="/add-new-craft/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">اضافة حرفة جديدة</a>
                                         <a href="{{ route('craftsman.password.request') }}" class="kt-widget__item">تغيير كلمة السر</a>
                                     </div>
                                 </div>
