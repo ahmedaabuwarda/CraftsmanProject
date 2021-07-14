@@ -14,7 +14,7 @@ class UpdateCraftsmenTable extends Migration
     public function up()
     {
         Schema::table('craftsmen', function (Blueprint $table) {
-            $table->integer('profile_id');
+            $table->integer('profile_id')->nullable();
         });
     }
 
