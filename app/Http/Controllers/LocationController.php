@@ -82,13 +82,4 @@ class LocationController extends Controller
 
         return response()->json(['html' => $html]);
     }
-
-
-    public function loc()
-    {
-        $user = Craftsman::find(1)->locations()->orderBy('id')->get();
-
-        return $user;
-    }
-
 }
