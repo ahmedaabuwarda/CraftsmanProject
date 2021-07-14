@@ -1,4 +1,3 @@
-
 @extends('craftsman.layouts.craftsman_layout')
 @section('content')
 <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
