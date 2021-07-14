@@ -14,4 +14,8 @@ class Crafts extends Model
     {
         return $this->belongsTo(Categories::class,'id');
     }
+    public function craftsman()
+    {
+        return $this->belongsToMany(Craftsman::class , 'craftsman_crafts');
+    }
 }

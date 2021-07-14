@@ -124,7 +124,7 @@ class ProfileController extends Controller
             $profile->save();
 
             $craftsma = Craftsman::findOrFail($request->craftsman_id);
-            $craftsma->profile()->save($profile); 
+            $craftsma->profile()->save($profile);
 
             return redirect('profile/' . $id)->with('success', 'تم انشاء الملف الشخصي بنجاح');
         }
