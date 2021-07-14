@@ -77,7 +77,8 @@ class ProfileController extends Controller
     {
         $craftsman_id = $request->craftsman_id;
         $craftsman = Craftsman::findOrFail($craftsman_id);
-        $profile_id = $craftsman->profile_id;
+        $profile_i = $craftsman->profile;
+        $profile_id = $profile_i->id;
 
         if ($profile_id) {
             $image = 'images/' . rand(1,10000000) . '.' . $request->file('image_path')->getClientOriginalExtension();
