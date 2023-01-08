@@ -44,7 +44,7 @@ class CraftController extends Controller
     {
         $crafts = new Crafts();
         $crafts->fill($request->only($crafts->getFillable()))->save();
-        return back()->with('success', 'تم انشاء الحرفة بنجاح');
+        return back()->with('success', 'تم انشاء الموهبة بنجاح');
     }
 
     /**
@@ -80,7 +80,7 @@ class CraftController extends Controller
     public function update(CraftsRequest $request, Crafts $craft)
     {
         $craft->fill($request->only($craft->getFillable()))->update();
-        return redirect()->back()->with('success', 'تم تحديث الحرفة بنجاح');
+        return redirect()->back()->with('success', 'تم تحديث الموهبة بنجاح');
     }
 
     /**
@@ -92,6 +92,6 @@ class CraftController extends Controller
     public function destroy(Crafts $craft)
     {
         Crafts::findOrFail($craft->id)->delete();
-        return redirect()->back()->with('success', 'تم حذف الحرفة بنجاح');
+        return redirect()->back()->with('success', 'تم حذف الموهبة بنجاح');
     }
 }

@@ -24,7 +24,7 @@
                     <div class="form-group row">
                         <label for="example-text-input" class="col-2 col-form-label"> {{ __('craft.name') }}:</label>
                         <div class="col-10">
-                            <input class="form-control @error('name') is-invalid @enderror" type="text" name="name" placeholder="اسم الحرفة" id="example-text-input" autofocus autocomplete>
+                            <input class="form-control @error('name') is-invalid @enderror" type="text" name="name" placeholder="اسم الموهبة" id="example-text-input" autofocus autocomplete>
                             @error('name')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
@@ -33,7 +33,7 @@
                     <div class="form-group row">
                         <label for="describe" class="col-2 col-form-label"> {{ __('craft.describe') }}:</label>
                         <div class="col-10">
-                            <input class="form-control @error('describe') is-invalid @enderror" type="text" name="describe" placeholder="وصف الحرفة" id="describe" autocomplete>
+                            <input class="form-control @error('describe') is-invalid @enderror" type="text" name="describe" placeholder="وصف الموهبة" id="describe" autocomplete>
                             @error('describe')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror

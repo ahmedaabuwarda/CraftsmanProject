@@ -13,7 +13,7 @@
 
 				<div class="kt-portlet__head">
 					<div class="kt-portlet__head-label">
-						<h3 style="font-size: 22px ; color:orangered" class="kt-portlet__head-title">
+						<h3 style="font-size: 22px ; color:#24679e" class="kt-portlet__head-title">
 							اضافة مكان عمل جديد
 						</h3>
 					</div>

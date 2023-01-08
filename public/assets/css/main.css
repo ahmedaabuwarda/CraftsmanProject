@@ -2061,7 +2061,7 @@ ul.icons {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/car.jpg);
+  background-image: linear-gradient(rgba(91, 119, 232, 0.25), rgba(27, 55, 206, 0.25)), url(../../images/car.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2206,7 +2206,7 @@ ul.icons {
 
 /* Footer */
 #footer {
-  background-color: #ff2200;
+  background-color: #24679e;
   color: rgba(252, 255, 254, 0.5);
   padding: 8rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
@@ -2418,7 +2418,7 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #ff2200;
+  background: #24679e;
   color: rgba(252, 255, 254, 0.5);
   cursor: default;
   height: 4.25rem;
@@ -2676,7 +2676,7 @@ body {
 
 /* Menu */
 #menu {
-  background-color: #ff2200;
+  background-color: #24679e;
   color: white;
   -moz-transform: translateX(20rem);
   -webkit-transform: translateX(20rem);

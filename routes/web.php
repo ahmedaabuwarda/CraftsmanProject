@@ -27,7 +27,12 @@ Route::get('/', function () {
     return view('welcome' ,compact('data'));
 });
 
-Auth::routes();
+// Auth::routes();
+Auth::routes([
+    'register' => true, // Registration Routes...
+    'reset' => false, // Password Reset Routes...
+    'verify' => false, // Email Verification Routes...
+  ]);
 
 Route::get('/location/create', [App\Http\Controllers\LocationController::class, 'create']);
 Route::get('/location/get', [App\Http\Controllers\LocationController::class, 'fetch']);

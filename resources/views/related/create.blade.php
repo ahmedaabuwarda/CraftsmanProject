@@ -13,8 +13,8 @@
 
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
-                            <h3 style="font-size: 22px ; color:orangered" class="kt-portlet__head-title">
-                                اضافة حرفة جديدة
+                            <h3 style="font-size: 22px ; color:#24679e" class="kt-portlet__head-title">
+                                اضافة موهبة جديدة
                             </h3>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                                 <div class="form-group">
                                     <div class="col-12">
                                         <select class="form-control @error('craft_id') is-invalid @enderror" data-dependent name="craft_id" id="city" required>
-                                            <option>إختر الحرفة</option>
+                                            <option>إختر الموهبة</option>
                                             @foreach($data as $craft)
                                                 <option value="{{ $craft->id }}">{{ $craft->name }}</option>
                                             @endforeach

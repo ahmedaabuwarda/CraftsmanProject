@@ -6,7 +6,7 @@
             <div class="kt-portlet">
                 <div class="kt-portlet__head">
                     <div class="kt-portlet__head-label">
-                        <h3 style="font-size: 22px ; color:orangered" class="kt-portlet__head-title">
+                        <h3 style="font-size: 22px ; color:#24679e" class="kt-portlet__head-title">
                             إضافة منشور جديد
                         </h3>
                     </div>
@@ -31,8 +31,8 @@
                     </div>
                     <div class="kt-portlet__foot" style="padding: 5px">
                         <div class="kt-form__actions" style="padding: 0 25px">
-                            <button style="width: 90px; font-size: 18px; background-color: orangered;" type="submit" class="btn btn-danger">نشر</button>
-                            <button style="width: 90px; font-size: 18px; color: orangered;" type="reset" class="btn btn-secondary">تجاهل</button>
+                            <button style="width: 90px; font-size: 18px; background-color: #24679e;" type="submit" class="btn btn-danger">نشر</button>
+                            <button style="width: 90px; font-size: 18px; color: #24679e;" type="reset" class="btn btn-secondary">تجاهل</button>
                         </div>
                     </div>
                 </form>
@@ -43,7 +43,7 @@
                 <div class="kt-portlet">
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
-                            <h3 style="font-size: 22px ; color:orangered" class="kt-portlet__head-title">
+                            <h3 style="font-size: 22px ; color:#24679e" class="kt-portlet__head-title">
                                 {{ $post->getCraftsmanName() }}
                             </h3>
                         </div>
@@ -58,9 +58,9 @@
                     </div>
                     <div class="kt-portlet__foot" style="padding: 5px;">
                         <div class="kt-form__actions" style="padding: 0 25px;">
-                            <button style="width: 33% ; font-size: 18px ; background-color: orangered" type="submit" class="btn btn-danger"><i class="flaticon-like"></i>أعجبني</button>
-                            <button style="width: 32.2% ; font-size: 18px ; color: orangered" type="reset" class="btn btn-secondary"><i class="flaticon-comment"></i>تعليق</button>
-                            <button style="width: 33% ; font-size: 18px ; color: orangered" type="reset" class="btn btn-secondary"><i style="color: red" class="flaticon-share"></i>مشاركة</button>
+                            <button style="width: 33% ; font-size: 18px ; background-color: #24679e" type="submit" class="btn btn-danger"><i class="flaticon-like"></i>أعجبني</button>
+                            <button style="width: 32.2% ; font-size: 18px ; color: #24679e" type="reset" class="btn btn-secondary"><i class="flaticon-comment"></i>تعليق</button>
+                            <button style="width: 33% ; font-size: 18px ; color: #24679e" type="reset" class="btn btn-secondary"><i style="color: red" class="flaticon-share"></i>مشاركة</button>
                         </div>
                     </div>
                 </div>

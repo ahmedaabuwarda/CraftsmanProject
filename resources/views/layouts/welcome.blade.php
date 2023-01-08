@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="ar">
 <head>
-    <title>الحرفيين | الصفحة الرئيسية</title>
+    <title>الموهوبين | الصفحة الرئيسية</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -28,20 +28,20 @@
         }
 
         .icon {
-            color: orangered;
+            color: #24679e;
         }
     </style>
 
 </head>
-<body class="is-preload" style="background-color: rgba(255,58,0,0.35)">
+<body class="is-preload" style="background-color: #8ec7f7">
 
     <header id="header">
         <a class="logo" href="{{ URL('/') }}">
-            <img alt="craftsmen logo" src="{{ asset('images/logo.png') }}" style=" height:47px; margin-top: 4px">
+            <img alt="gifted logo" src="{{ asset('images/logo.pngg') }}" style=" height:47px; margin-top: 4px">
         </a>
         <nav>
             <a href="{{ URL('/') }}">الصفحة الرئيسية</a>
-            <a href="{{ URL('/craftsmen') }}">الحرفيين</a>
+            <a href="{{ URL('/craftsmen') }}">الموهوبين</a>
             @if(auth('craftsman')->user())
                 <a href="{{ URL('/craftsman') }}">{{ auth('craftsman')->user()->name }}</a>
                 <a href="" onclick="event.preventDefault();
@@ -67,7 +67,7 @@
     </header>
     <nav id="menu">
         <ul class="links">
-            <li><a href="{{ URL('/') }}"><img alt="ss" src="images/logo.png" style="height:55px; margin:10px">
+            <li><a href="{{ URL('/') }}"><img alt="ss" src="{{asset('images/logo.pngg')}}" style="height:55px; margin:10px">
                 </a></li>
             <li><a href="{{ URL('/') }}">الصفحة الرئيسية</a></li>
             <li><a href="{{ route('reports.create') }}">التقارير والشكاوى</a></li>
@@ -84,15 +84,15 @@
         <div class="inner">
             <div class="content">
                 <section>
-                    <h3>CRAFTSMEN.COM</h3>
-                    <p>محرك بحث عن الوظائف في قطاع غزة</p>
+                    <h3>GIFTED.COM</h3>
+                    <p>محرك بحث عن الوظائف في السعودية</p>
                 </section>
                 <section>
                     <h4 style="text-align: right">خدمات</h4>
                     <ul class="alt" style="text-align: right">
-                        <li><a href="#">الحرفيين والمهنيين في قطاع غزة</a></li>
+                        <li><a href="#">الموهوبين والمهنيين في السعودية</a></li>
                         <li><a href="#">ارباب العمل والشركات</a></li>
-                        <li><a href="#">المواطنين المحتاجين لخدمات الحرفيين</a></li>
+                        <li><a href="#">المواطنين المحتاجين لخدمات الموهوبين</a></li>
                     </ul>
                 </section>
                 <section>

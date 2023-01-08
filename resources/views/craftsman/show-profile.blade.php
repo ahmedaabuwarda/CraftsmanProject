@@ -7,7 +7,7 @@
 
                 <div class="kt-portlet__head">
                     <div class="kt-portlet__head-label">
-                        <h3 style="font-size: 22px ; color:orangered" class="kt-portlet__head-title">
+                        <h3 style="font-size: 22px ; color:#24679e" class="kt-portlet__head-title">
                         الملف الشخصي
                         </h3>
                     </div>
@@ -89,8 +89,8 @@
 
                         <div class="kt-portlet__foot" style="padding: 5px">
                             <div class="kt-form__actions" style="padding: 0 25px">
-                                <a href="{{ route('profile.edit' , optional(auth('craftsman')->user())->id) }}" style="width: 90px; font-size: 18px; background-color: orangered;" type="button" class="btn btn-danger">تعديل</a>
-                                <a href="/craftsman" style="width: 90px; font-size: 18px; color: orangered;" type="button" class="btn btn-secondary">الغاء</a>
+                                <a href="{{ route('profile.edit' , optional(auth('craftsman')->user())->id) }}" style="width: 90px; font-size: 18px; background-color: #24679e;" type="button" class="btn btn-danger">تعديل</a>
+                                <a href="/craftsman" style="width: 90px; font-size: 18px; color: #24679e;" type="button" class="btn btn-secondary">الغاء</a>
                             </div>
                         </div>
 

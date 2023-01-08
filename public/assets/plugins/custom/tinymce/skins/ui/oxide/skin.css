@@ -1792,7 +1792,7 @@ body.tox-dialog__disable-scroll {
   fill: #c00; }
 
 .tox .tox-control-wrap__status-icon-unknown svg {
-  fill: orange; }
+  fill: #24679e; }
 
 .tox .tox-control-wrap__status-icon-valid svg {
   fill: green; }

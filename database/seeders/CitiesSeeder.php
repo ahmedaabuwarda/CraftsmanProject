@@ -15,7 +15,7 @@ class CitiesSeeder extends Seeder
      */
     public function run()
     {
-        $json = File::get('C:\Users\AHMED_ABUWARDA\Desktop\cities.json');
+        $json = File::get('database/seeders/cities.json');
         $data = json_decode($json);
 
         foreach ($data as $obj){

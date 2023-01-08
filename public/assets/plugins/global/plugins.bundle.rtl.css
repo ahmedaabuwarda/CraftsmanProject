@@ -4676,7 +4676,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .ql-editor .ql-bg-red {
   background-color: #e60000; }
 
-.ql-editor .ql-bg-orange {
+.ql-editor .ql-bg-#24679e {
   background-color: #f90; }
 
 .ql-editor .ql-bg-yellow {
@@ -4697,7 +4697,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .ql-editor .ql-color-red {
   color: #e60000; }
 
-.ql-editor .ql-color-orange {
+.ql-editor .ql-color-#24679e {
   color: #f90; }
 
 .ql-editor .ql-color-yellow {

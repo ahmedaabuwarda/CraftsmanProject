@@ -4,7 +4,7 @@
 <head>
     <base href="">
     <meta charset="utf-8"/>
-    <title>الحرفيين | لوحة التحكم</title>
+    <title>الموهوبين | لوحة التحكم</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--begin::Fonts -->
     <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
@@ -45,7 +45,7 @@
             <div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
                 <div class="kt-aside__brand-logo">
                     <a href="{{url('/')}}">
-                        <img alt="Logo" style="max-width:100%; max-height:100%;" src="{{ asset('assets/media/logos/logo2.jpg') }}"/>
+                        <img alt="Logo" style="max-width:100%; max-height:100%;" src="{{ asset('assets/media/logos/logo2.jjpg') }}"/>
                     </a>
                 </div>
                 <div class="kt-aside__brand-tools">
@@ -155,7 +155,7 @@
                                     <li class="kt-menu__item " aria-haspopup="true"><a href="/as-admin"
                                                                                        class="kt-menu__link "><i
                                                 class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
-                                                class="kt-menu__link-text">كل الحرفيين</span></a></li>
+                                                class="kt-menu__link-text">كل الموهوبين</span></a></li>
                                 </ul>
                             </div>
                         </li>

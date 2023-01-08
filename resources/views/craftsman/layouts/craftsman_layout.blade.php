@@ -3,7 +3,7 @@
 <head>
     <base href="../../">
     <meta charset="utf-8"/>
-    <title>الحرفيين | الصفحة الشخصية</title>
+    <title>الموهوبين | الصفحة الشخصية</title>
     <meta name="description" content="No aside layout examples">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
@@ -22,7 +22,7 @@
 <!-- begin::Body -->
 <body style="background-color: rgba(255,213,182,0.45);" class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--fixed kt-subheader--solid kt-page--loading">
 <!-- begin:: Header Mobile -->
-<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed " style="background-color: orangered">
+<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed " style="background-color: #24679e">
     <div class="kt-header-mobile__logo">
         <a href="{{ URL('/') }}">
             <img alt="Logo" style="height: 36px" src="/images/logo.png"/>
@@ -37,7 +37,7 @@
     <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
         <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
             <!-- begin:: Header -->
-            <div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed " style="background-color: orangered">
+            <div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed " style="background-color: #24679e">
                 <div class="kt-header-menu-wrapper" id="kt_header_menu_wrapper">
                     <div class="kt-header-logo">
                         <a href="{{ URL('/') }}">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <!-- begin:: Header Topbar -->
-                <div class="kt-header__topbar" style="background-color: orangered">
+                <div class="kt-header__topbar" style="background-color: #24679e">
                     <!--begin: User Bar -->
                     <div class="kt-header__topbar-item kt-header__topbar-item--user">
                         <div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
@@ -102,7 +102,7 @@
                                 <div class="kt-portlet">
                                     <!--Begin:: Tasks Toolbar-->
                                     <div class="kt-todo__header">
-                                        <h3 class="kt-todo__title" style="margin-left: 15%">صفحة الحرفيين الرئيسية</h3>
+                                        <h3 class="kt-todo__title" style="margin-left: 15%">صفحة الموهوبين الرئيسية</h3>
                                         <!--Begin:: Tasks Nav-->
                                         <div class="kt-todo__nav" style="font-size: 18px">
                                             <a href="{{ URL('/craftsman') }}" class="kt-todo__link ">الصفحة الرئيسية</a>
@@ -160,8 +160,8 @@
                                         <a href="{{ route('profile.show' , $id) }}" class="kt-widget__item kt-widget__item--active">الملف الشخصي</a>
                                         <a href="/current-locations/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">اماكن العمل الحالية</a>
                                         <a href="/location/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">اضافة مكان عمل</a>
-                                        <a href="/current-crafts/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">الحرف الحالية</a>
-                                        <a href="/add-new-craft/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">اضافة حرفة جديدة</a>
+                                        <a href="/current-crafts/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">المواهب الحالية</a>
+                                        <a href="/add-new-craft/{{ optional(auth('craftsman')->user())->id }}" class="kt-widget__item">اضافة موهبة جديدة</a>
                                         <a href="{{ route('craftsman.password.request') }}" class="kt-widget__item">تغيير كلمة السر</a>
                                     </div>
                                 </div>

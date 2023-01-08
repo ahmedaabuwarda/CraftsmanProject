@@ -4,7 +4,7 @@
 <head>
     <base href="../../../">
     <meta charset="utf-8" />
-    <title>الحرفيين | التسجيل في الموقع</title>
+    <title>الموهوبين | التسجيل في الموقع</title>
     <meta name="description" content="Login page example">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 

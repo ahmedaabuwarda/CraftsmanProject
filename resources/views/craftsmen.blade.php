@@ -51,7 +51,7 @@
     }
 
     .fa-star {
-        color: orangered;
+        color: #24679e;
     }
 </style>
 @extends('layouts.welcome')
@@ -60,7 +60,7 @@
 @if($data)
     <div class="inner" style="margin-top: 10%">
         <header class="special">
-            <h2>كل الحرفيين المسجلين لدينا</h2>
+            <h2>كل الموهوبين المسجلين لدينا</h2>
         </header>
 
         <div class="highlights">
@@ -120,7 +120,7 @@
                                                 <span class="close"
                                                         style="font-size: 35px; margin: 10px; border: 3px solid #ff2830;border-radius: 30px;width: 40px;text-align: center;color: red">&times;</span>
                                                 <h1 style="color: red ; text-align: center ; margin-top: 11%"> ما
-                                                    رأيك في هذا الحرفي؟ </h1>
+                                                    رأيك في هذا الموهوب؟ </h1>
                                                 <div class="stars">
                                                     <span class="fa fa-star 0" data-index="1"></span>
                                                     <span class="fa fa-star 1" data-index="2"></span>

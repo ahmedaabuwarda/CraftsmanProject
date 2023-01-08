@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'allCategories' => 'كل الفئات الحرفية',
-    'categories' => 'الفئات الحرفية',
-    'new' => 'إضافة فئة حرفية جديدة',
+    'allCategories' => 'كل الفئات الموهوبة',
+    'categories' => 'الفئات الموهوبة',
+    'new' => 'إضافة فئة موهبة جديدة',
     'id' => 'الرقم',
     'name' => 'الإسم',
     'describe' => 'الوصف',
@@ -12,5 +12,5 @@ return [
     'save' => 'حفظ',
     'cancel' => 'إلغاء',
     'update' => 'تعديل',
-    'editAllCategories' => 'تعديل الفئات الحرفية',
+    'editAllCategories' => 'تعديل الفئات الموهوبة',
 ];
