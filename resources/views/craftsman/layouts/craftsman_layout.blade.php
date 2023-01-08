@@ -25,7 +25,7 @@
 <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed " style="background-color: #24679e">
     <div class="kt-header-mobile__logo">
         <a href="{{ URL('/') }}">
-            <img alt="Logo" style="height: 36px" src="/images/logo.png"/>
+            <img alt="Logo" style="height: 36px" src="/images/logo.pngg"/>
         </a>
     </div>
     <div class="kt-header-mobile__toolbar">
@@ -41,7 +41,7 @@
                 <div class="kt-header-menu-wrapper" id="kt_header_menu_wrapper">
                     <div class="kt-header-logo">
                         <a href="{{ URL('/') }}">
-                            <img alt="Logo" style="height: 40px ;" src="{{ asset('/images/logo.png') }}"/>
+                            <img alt="Logo" style="height: 40px ;" src="{{ asset('/images/logo.pngg') }}"/>
                         </a>
                     </div>
                     <div id="kt_header_menu"
