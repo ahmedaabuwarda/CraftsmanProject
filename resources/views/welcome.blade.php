@@ -5,13 +5,13 @@
         <h1>الدليل الموهوب</h1>
         <p class="sub">من افضل المواقع المتخصصة في الاعلانات المتعلقة بالمهن والمواهب في السعودية</p>
     </div>
-    <video autoplay loop muted playsinline src="{{ asset('images/vid1.mp4') }}"></video>
+    <video autoplay loop muted playsinline src="{{ asset('images/vid2.mp4') }}"></video>
 </section>
 <!-- Highlights -->
 <section class="wrapper">
     <div class="inner" >
         <header class="special">
-            <h2>إبحث عن الموهوب الأنسب</h2>
+            <h2>إبحث عن الطالب الموهوب</h2>
             <p class="sub">سوف يساعدك موقعنا في البحث على الموهوب الأقرب والأنسب لك</p>
             @if(Session::has('success'))
                 <div class="alert alert-danger" style="font-size: 33px; background-color: red;direction: rtl">
@@ -134,40 +134,6 @@
             </section>
         </div>
     </div>
-    <div class="inner">
-        <header class="special">
-            <h2>المواهب الاكثر شعبية</h2>
-        </header>
-        <div class="highlights">
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-car"><span class="label">Icon</span></a>
-                        <h3>النقل</h3>
-                    </header>
-                    <p>مسمى هذه الموهبة يندرج تحته جميع خدمات التوصيل مثل سيارات النقل والتكتوك</p>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-lightbulb"><span class="label">Icon</span></a>
-                        <h3>الكهرباء المنزلية</h3>
-                    </header>
-                    <p>خدمات التمديدات الكهربائية صيانة وانشاء وتجديد</p>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <header>
-                        <a href="#" class="icon fa-home"><span class="label">Icon</span></a>
-                        <h3>البناء</h3>
-                    </header>
-                    <p>يندرج تحت هذه الموهبة معلم الطوبار والبناء وعامل البناء</p>
-                </div>
-            </section>
-        </div>
-    </div>
 </section>
 
 <!-- CTA -->
@@ -184,54 +150,8 @@
     <div class="inner">
         <header class="special">
             <h2>من نحن؟</h2>
-            <p style="font-size: 28px">المعلم فهد وصفي الدندني تخصص حاسب ألي سيتم تقديم هذا المشروع في مقرر المشاريع البرمجية</p>
+            <p style="font-size: 28px">المعلم فهد وصفي الدندني سيتم تقديم هذا المشروع في مقرر المشاريع البرمجية</p>
         </header>
-        <div class="testimonials">
-            <section>
-                <div class="content">
-                    <blockquote>
-                        <p> خريج حاسب آلي من الجامعة الاسلامية</p>
-                        <p> PHP developer with Laravel framework</p>
-                    </blockquote>
-                    <div class="author">
-                        <div class="image">
-                            <img style="" src="{{ URL('images/saleh1.jpg') }}" alt="saleh1.jpg"/>
-                        </div>
-                        <p class="credit">- <strong>Saleh Marouf</strong> <span> CE </span></p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <blockquote>
-                        <p>خريج حاسب آلي من الجامعة الاسلامية بالسعودية</p>
-                        <p> PHP developer with Laravel framework</p>
-
-                    </blockquote>
-                    <div class="author">
-                        <div class="image">
-                            <img src="{{ URL('images/ahmed.PNG') }}" alt="ahmed.png"/>
-                        </div>
-                        <p class="credit">- <strong>Ahmed Salam</strong> <span>CE</span></p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <blockquote>
-                        <p>خريج حاسب آلي من الجامعة الاسلامية بالسعودية</p>
-                        <p> PHP developer with Laravel framework</p>
-
-                    </blockquote>
-                    <div class="author">
-                        <div class="image">
-                            <img src="{{ URL('images/hasan.jpg') }}" alt="hasan.jpg"/>
-                        </div>
-                        <p class="credit">- <strong>Hasan Yacob</strong> <span>CE</span></p>
-                    </div>
-                </div>
-            </section>
-        </div>
     </div>
 </section>
 @endsection
